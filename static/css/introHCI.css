@@ -12,8 +12,8 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 1px dotted gold;
+     padding: 30px;
 }
 
 .jumbotron {
@@ -24,7 +24,7 @@ body {
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
+     opacity: 0.4;
      top: 0;
      left: 0;
      bottom: 0;
@@ -33,9 +33,16 @@ body {
      z-index: -1;	
 }
 
-.project {
+.project1 {
      margin-left: 20px;
-     background-color: #deebf7;
+     background-color: #495218;
      padding: 20px;
-     width: 525px;
+     width: 600px;
+}
+
+.project2 {
+     margin-left: 20px;
+     background-color: #e9d21a;
+     padding: 20px;
+     width: 600px;
 }
